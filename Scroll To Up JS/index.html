@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Scroll to Up JS</title>
+</head>
+<body>
+     <section class="section1"></section>
+     <section class="section2"></section>
+     <div class="btnGoTop">
+          <span class="iconify" data-icon="ant-design:caret-up-filled"></span>
+     </div>
+     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+     <script>
+          const goTop = document.querySelector(".btnGoTop")
+          window.addEventListener("scroll", ()=>{
+               window.pageYOffset > 100 ? goTop.classList.add("active") : goTop.classList.remove("active");
+          })
+          goTop.addEventListener("click",()=>{
+               window.scrollTo({
+                    top:0,
+                    left:0,
+                    behavior:"smooth"
+               })
+          })
+     </script>
+</body>
+</html>

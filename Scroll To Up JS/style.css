@@ -1,0 +1,36 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+section{
+     min-height: 100vh;
+}
+.section1{
+     background: #00b4d8;
+}
+.section2{
+     background: #06d6a0;
+}
+.btnGoTop{
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 48px;
+     height: 48px;
+     background: #22b455;
+     text-align: center;
+     padding: 10px 0;
+     font-size: 25px;
+     border-radius: 5px;
+     color: white;
+     transition: .3s linear;
+     display: none;
+}
+.btnGoTop:hover{
+     background:#1a8a41;
+     cursor: pointer;
+}
+.btnGoTop.active{
+     display: block;
+}
