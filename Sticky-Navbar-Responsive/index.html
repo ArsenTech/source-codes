@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap">
+     <title>Basic Sticky Header</title>
+</head>
+<body>
+     <nav class="navbar">
+          <div class="left">
+               <a href=""><h2>LOGO</h2></a>
+          </div>
+          <img src="img/menu.svg" alt="menu" class="menu" width="48" height="48">
+          <div class="right">
+               <a href="#">Home</a>
+               <a href="#">About</a>
+               <a href="#">Services</a>
+               <a href="#">Portfolio</a>
+               <a href="#">Contact</a>
+          </div>
+     </nav>
+     <section></section>
+     <script>
+          const navbar = document.querySelector(".navbar");
+          const toggler = document.querySelector(".menu");
+          window.addEventListener("scroll", ()=>{
+               if(this.scrollY > 20){
+                    navbar.classList.add("sticky")
+               } else{
+                     navbar.classList.remove("sticky")
+               }
+          })
+          toggler.addEventListener("click", ()=>{
+               navbar.querySelector(".right").classList.toggle("active");
+               toggler.classList.toggle("active");
+               toggler.classList.contains("active") ? toggler.src = "img/close.svg" : toggler.src = "img/menu.svg";
+          })
+     </script>
+</body>
+</html>
