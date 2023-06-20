@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: linear-gradient(45deg, #000428, #004e92, #000428);
+     background-size: 600% 600%;
+     animation: bg 10s ease infinite;
+}
+@keyframes bg {
+     0%,100%{background-position: 0% 97%;}
+     50%{background-position: 100% 4%;}
+}
+.content{
+     width: 100%;
+     max-width: 600px;
+     text-align: center;
+     color: #fafafa;
+     border: 2px solid #fafafa;
+     border-radius: 8px;
+     padding: 20px;
+}
+.content h1{
+     font-size: 150px;
+}
+.content h2{
+     font-size: 24px;
+}
+.content p{
+     margin: 16px 0;
+}
+.content button{
+     padding: 0.5em 1em;
+     color: #fafafa;
+     border: 2px solid #fafafa;
+     border-radius: 8px;
+     background: none;
+     outline: none;
+     transition: .3s ease;
+     cursor: pointer;
+     margin: 5px;
+}
+.content .fill, .content button:hover{
+     background-color: #fafafa;
+     color: #000428;
+}
+.content .fill:hover{
+     background-color: #ccc;
+     border-color: #ccc;
+}
+@media screen and (max-width: 500px){
+     body{
+          padding: 16px;
+     }
+     .content h1{
+          font-size: 100px;
+     }
+     .content h2{
+          font-size: 20px;
+     }
+     .content p{
+          font-size: 14.5px;
+     }
+     .content .btns{
+          display: flex;
+          flex-direction: column;
+     }
+}

@@ -1,0 +1,88 @@
+*{
+     margin: 0;padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+body{
+     min-height: 100vh;
+}
+.test{
+     min-height: 80vh;
+}
+footer{
+     background: #222;
+     color: #fafafa;
+     padding: 21px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+footer .content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+footer .content .logo{
+     font-size: 40px;
+     text-align: center;
+}
+footer .content p{
+     text-align: center;
+     width: 100%;
+     max-width: 500px;
+}
+footer .content .sm, footer .content .links{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+}
+footer .content .links{flex-wrap: wrap;}
+footer .content .sm li{
+     margin: 15px;
+}
+footer .content .links li{
+     margin: 0 12px;
+     margin-bottom: 10px;
+}
+footer .content .links li a,footer .content .sm li a{
+     color: #fafafa;
+     transition: .3s ease;
+}
+footer .content .sm li a{
+     font-size: 25px;
+     padding: 8px;
+     display: flex;
+     align-items: center;
+}
+footer .content .sm li a:hover{
+     background: #fafafa;
+     color: #222;
+     border-radius: 10px;
+}
+footer .content .links li a:hover{
+     opacity: .5;
+}
+footer .copyright{
+     text-align: center;
+     padding-top: 20px;
+     width: 100%;
+     border-top: 1px solid #555;
+}
+@media screen and (max-width: 500px){
+     footer{
+          width: 100%;
+     }
+     footer .content .logo{
+          font-size: 30px;
+     }
+     footer .content p{
+          padding: 15px;
+     }
+     footer .content .sm li a{
+          padding: 5px;
+     }
+}

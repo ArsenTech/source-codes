@@ -1,0 +1,30 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     min-height: 100vh;
+     background: #fafafa;
+     transition: .3s;
+}
+h2{
+     font-size: 25px;
+}
+img{
+     margin: 10px 0;
+     width: 100px;
+     cursor: pointer;
+}
+.dark{
+     background: #222;
+     color: #fafafa;
+}
+.dark img{
+     filter: invert(1);
+}

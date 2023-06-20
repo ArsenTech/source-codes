@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Quote Generator</title>
+</head>
+<body>
+     <div class="alert">
+          <h2>Quote Copied</h2>
+     </div>
+     <div class="container">
+          <div class="content">
+               <img src="icons/quote.svg" alt="quote" class="quote" width="64" height="64">
+               <h2>Quotes</h2>
+               <p id="quote"></p>
+               <p id="author"></p>
+               <div class="actions">
+                    <button id="generate">Get Another</button>
+                    <button id="copy"><img src="icons/copy.svg" alt="copy"></button>
+               </div>
+          </div>
+     </div>
+     <script>
+          const author = document.getElementById("author");
+          const quoteElem = document.getElementById("quote");
+          const copy = document.getElementById("copy");
+          const generate = document.getElementById("generate");
+          const alertBox = document.querySelector(".alert");
+          let quoteText = "";
+
+          async function getQuote(){
+               generate.textContent = "Loading..."
+               generate.classList.add("loading");
+               const api = await fetch("https://api.quotable.io/random");
+               generate.textContent = "Get Another"
+               generate.classList.remove("loading");
+               return await api.json();
+          }
+          async function showQuote(){
+               const quote = await getQuote();
+               quoteElem.textContent = quote.content;
+               author.innerHTML = `&mdash; ${quote.author}`;
+               quoteText = `"${quote.content}" by ${quote.author}`;
+          }
+
+          generate.addEventListener("click", showQuote);
+          copy.addEventListener("click", ()=>{
+               alertBox.classList.add("show");
+               navigator.clipboard.writeText(quoteText);
+               setTimeout(()=>alertBox.classList.remove("show"),1000)
+          })
+          showQuote();
+     </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+     <title>Color Generator</title>
+</head>
+<body>
+     <div class="alert">
+          <p>Color Copied</p>
+          <p id="result"></p>
+     </div>
+     <div class="container">
+          <div class="content">
+               <h2>Random Color Generator</h2>
+               <div class="color"></div>
+               <p class="hex"></p>
+               <div class="actions">
+                    <button id="generate"><i class="las la-plus"></i> Generate</button>
+                    <button id="copy"><i class="las la-copy"></i> Copy</button>
+               </div>
+          </div>
+     </div>
+     <script>
+          const colorElem = document.querySelector(".color");
+          const hexElem = document.querySelector(".hex");
+          const copyBtn = document.getElementById("copy");
+          const generate = document.getElementById("generate");
+          const result = document.getElementById("result");
+          const alertBox = document.querySelector(".alert");
+          const chars = "0123456789abcdef";
+          const len=6;
+          let color = "#";
+
+          function getColor(){
+               color = "#";
+               for(let i=0;i<len;i++){
+                    let rand = Math.floor(Math.random()*chars.length);
+                    color += chars.substring(rand,rand+1);
+               }
+               hexElem.innerHTML = color;
+               colorElem.style.backgroundColor = color;
+          }
+          function copyColor(){
+               alertBox.classList.add("show");
+               result.textContent = color;
+               navigator.clipboard.writeText(color);
+               setTimeout(()=>alertBox.classList.remove("show"),1000);
+          }
+          generate.addEventListener("click",getColor);
+          copyBtn.addEventListener("click", copyColor)
+     </script>
+</body>
+</html>

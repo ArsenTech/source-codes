@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Joke Generator</title>
+</head>
+<body>
+     <div class="container">
+          <div class="content">
+               <h2>Random Jokes</h2>
+               <p class="challenge">Try Not to Laugh</p>
+               <p id="setup"></p>
+               <p id="punchline"></p>
+               <button id="generate">Generate Another</button>
+          </div>
+     </div>
+     <script>
+          const setupElem = document.getElementById("setup");
+          const punchlineElem = document.getElementById("punchline");
+          const generateBtn = document.getElementById("generate");
+          const challenge = document.querySelector(".challenge");
+          const challenges = [
+               "Try Not to Laugh",
+               "If You Laugh You Lose",
+               "Try Not to Roll on the Floor While Laughing"
+          ];
+          challenge.textContent = challenges[Math.floor(Math.random()*challenges.length)]
+          async function getJoke(){
+               const api = await fetch("https://official-joke-api.appspot.com/random_joke");
+               return await api.json();
+          }
+          async function showJoke(){
+               generateBtn.classList.add("loading");
+               generateBtn.textContent = "Loading...";
+               const joke = await getJoke();
+               setupElem.textContent = joke.setup;
+               punchlineElem.textContent = joke.punchline;
+               generateBtn.classList.remove("loading");
+               generateBtn.textContent = "Generate Another";
+          }
+          generateBtn.addEventListener("click", showJoke);
+          showJoke();
+     </script>
+</body>
+</html>
