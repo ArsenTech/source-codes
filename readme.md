@@ -3,14 +3,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
-- [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
-- [Scroll Back To Top Button Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=I3aRNsO_3oo)
-- [Active Class Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2YeQvBY74MY)
-- [Basic 404 Page Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=2hu9kIqLYQU)
-- [Discord Style Emoji Hover Effect Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=KQqscI6kBvI)
-- [Basic Social Media Icons Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=WjDsRKMRgII)
-- [Basic Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=MJFzYA4mRkA)
-- [Multilingual Page Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=wlsiP7QUX9M)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
