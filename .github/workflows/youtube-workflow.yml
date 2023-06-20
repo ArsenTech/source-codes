@@ -17,3 +17,4 @@ jobs:
           max_post_count: 10
           comment_tag_name: "YOUTUBE"
           readme_path: "./readme.md"
+          commit_message: "Updated README with latest videos from Coding With ArsenTech"
