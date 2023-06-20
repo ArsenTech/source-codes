@@ -2,14 +2,10 @@
 These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)'s Tutorial Videos
 
 ## Tutorials Based on Source Codes
-- [Multilingual Page](https://www.youtube.com/watch?v=wlsiP7QUX9M)
-- [Sticky Navbar Tutorial](https://www.youtube.com/watch?v=MJFzYA4mRkA)
-- [Social Media Icons](https://www.youtube.com/watch?v=WjDsRKMRgII)
-- [Discord Like Hover Effect](https://www.youtube.com/watch?v=KQqscI6kBvI)
-- [404 Page](https://www.youtube.com/watch?v=2hu9kIqLYQU)
-- [Active Links With CSS Class](https://www.youtube.com/watch?v=2YeQvBY74MY)
-- [Scroll To Top With JS](https://www.youtube.com/watch?v=I3aRNsO_3oo)
-- [Responsive Sticky Navbar Tutorial](https://www.youtube.com/watch?v=B_M-fZCLc7M)
+<!-- VIDEOS-LIST:START -->
+<!-- VIDEOS-LIST:END -->
+
+➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
 
 ## Attribution
 You Can Use These Codes In Your Websites, Web Projects and so on, but I Recommend you To Watch The Tutorials or Credit to ArsenTech If You Want.
