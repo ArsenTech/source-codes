@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Basic Counter Tutorial With Javascript](https://www.youtube.com/watch?v=Ovh0LAt33Y0)
 - [Basic, But Responsive Footer Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=dfvFN5AqCVU)
 - [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
 - [Scroll Back To Top Button Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=I3aRNsO_3oo)
