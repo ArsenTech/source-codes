@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Random Color Generator Tutorial Using Javascript](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Joke Generator Tutorial With Javascript](https://www.youtube.com/watch?v=4dvG2hRJjYg)
 - [Quote Generator Tutorial With Javascript](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
 - [Basic, But Responsive Sidebar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=1djaszEYLoo)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
 - [Scroll Back To Top Button Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=I3aRNsO_3oo)
 - [Active Class Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2YeQvBY74MY)
-- [Basic 404 Page Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=2hu9kIqLYQU)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
