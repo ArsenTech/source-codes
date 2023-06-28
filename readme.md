@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Dark Mode / Light Mode Toggler &lpar;Switch&rpar; Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2U_z98Ln3kg)
 - [Random Color Generator Tutorial Using Javascript](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Joke Generator Tutorial With Javascript](https://www.youtube.com/watch?v=4dvG2hRJjYg)
 - [Quote Generator Tutorial With Javascript](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Basic, But Responsive Footer Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=dfvFN5AqCVU)
 - [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
 - [Scroll Back To Top Button Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=I3aRNsO_3oo)
-- [Active Class Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2YeQvBY74MY)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
