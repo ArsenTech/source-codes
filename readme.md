@@ -8,10 +8,10 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Dark Mode / Light Mode Toggler &lpar;Switch&rpar; Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2U_z98Ln3kg)
 - [Random Color Generator Tutorial Using Javascript](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Quote Generator Tutorial With Javascript](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
-- [Basic, But Responsive Sidebar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=1djaszEYLoo)
+- [Responsive Sidebar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=1djaszEYLoo)
 - [Responsive 404 Page Tutorial With Animated Background [HTML, CSS]](https://www.youtube.com/watch?v=xBVNJ97iKvg)
-- [Basic Counter Tutorial With Javascript](https://www.youtube.com/watch?v=Ovh0LAt33Y0)
-- [Basic, But Responsive Footer Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=dfvFN5AqCVU)
+- [Counter Tutorial With Javascript, HTML and CSS](https://www.youtube.com/watch?v=Ovh0LAt33Y0)
+- [Responsive Footer Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=dfvFN5AqCVU)
 - [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
 <!-- YOUTUBE:END -->
 
