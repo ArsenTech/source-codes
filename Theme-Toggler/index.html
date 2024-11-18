@@ -14,7 +14,7 @@
           const toggler = document.querySelector(".toggler");
           toggler.addEventListener("click",()=>{
                document.body.classList.toggle("dark");
-               // document.body.classList.contains("dark") ? toggler.src = "icons/dark.svg" : toggler.src = "icons/light.svg";
+               // toggler.src = document.body.classList.contains("dark") ? "icons/dark.svg" : "icons/light.svg";
                if(document.body.classList.contains("dark")){
                     toggler.src = "icons/dark.svg"
                } else {
