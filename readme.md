@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Password Generator Tutorial In Javascript](https://www.youtube.com/watch?v=a0lEPik55SM)
 - [Joke Generator Tutorial With Javascript](https://www.youtube.com/watch?v=uVZcbE8kcQc)
 - [Multilingual Page Tutorial &lpar;Part 2&rpar; [HTML, JS]](https://www.youtube.com/watch?v=y8yAP7hPB-w)
 - [Dark Mode / Light Mode Toggler &lpar;Switch&rpar; Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=2U_z98Ln3kg)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Responsive 404 Page Tutorial With Animated Background [HTML, CSS]](https://www.youtube.com/watch?v=xBVNJ97iKvg)
 - [Counter Tutorial With Javascript, HTML and CSS](https://www.youtube.com/watch?v=Ovh0LAt33Y0)
 - [Responsive Footer Tutorial [HTML, CSS]](https://www.youtube.com/watch?v=dfvFN5AqCVU)
-- [Responsive Sticky Navbar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=B_M-fZCLc7M)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
