@@ -26,4 +26,5 @@ You Can Use These Codes In Your Websites, Web Projects and so on, but I Recommen
 
 > GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
 > [ArsenTech's Website](https://arsentech.github.io) &nbsp;&middot;&nbsp;
-> [ArsenJS](https://codepen.io/ArsenJS)
+> Codepen [ArsenJS](https://codepen.io/ArsenJS)
+> Patreon [ArsenTech](https://www.patreon.com/ArsenTech)
