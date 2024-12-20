@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
 - [Password Generator Tutorial In Javascript](https://www.youtube.com/watch?v=a0lEPik55SM)
 - [Joke Generator Tutorial With Javascript](https://www.youtube.com/watch?v=uVZcbE8kcQc)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Quote Generator Tutorial With Javascript](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
 - [Responsive Sidebar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=1djaszEYLoo)
 - [Responsive 404 Page Tutorial With Animated Background [HTML, CSS]](https://www.youtube.com/watch?v=xBVNJ97iKvg)
-- [Counter Tutorial With Javascript, HTML and CSS](https://www.youtube.com/watch?v=Ovh0LAt33Y0)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
