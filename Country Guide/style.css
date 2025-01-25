@@ -1,0 +1,106 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #22b455;
+     min-height: 100vh;
+     padding: 10px;
+}
+.container{
+     background: #fafafa;
+     padding: 20px;
+     border-radius: 10px;
+     width: 100%;
+     max-width: 550px;
+     box-shadow: 0 5px 25px rgba(0,0,0,.5);
+}
+.container form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 5px;
+     width: 100%;
+     margin: 10px 0;
+}
+.container form :where(input, button){
+     flex-grow: 1;
+     flex-shrink: 0;
+     border-radius: 10px;
+     padding: 0.5em;
+     transition: .3s;
+}
+.container form input{
+     font-size: 16px;
+     border: 2px solid #bbb;
+     outline: none;
+}
+.container form input:focus{
+     border-color: #22b455;
+     box-shadow: 0 0 5px #22b455;
+}
+.container form button{
+     border: 2px solid #22b455;
+     color: #22b455;
+     background: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+.container form button:hover{
+     background: #22b455;
+     color: #fafafa;
+}
+.container .country-details{
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+.container .country-details.active{
+     display: flex;
+}
+.container .country-details .grid{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+.container .country-details .grid .flag{
+     border-radius: 10px;
+}
+.container .country-details .grid ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 5px;
+     list-style: none;
+     font-size: 18px;
+}
+.container .country-details .grid ul li{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+}
+.errorTxt{
+     color: #dc3545;
+     font-weight: 500;
+     font-size: 20px;
+}
+@media screen and (max-width: 500px){
+     .container .country-details .grid{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+}

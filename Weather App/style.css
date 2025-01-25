@@ -1,0 +1,179 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     position: relative;
+     background: url("assets/bg.webp") no-repeat center/cover;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+}
+.attr{
+     position: absolute;
+     bottom: 15px;
+     left: 15px;
+     background: rgba(0,0,0,.5);
+     color: #fff;
+     padding: 10px;
+     border-radius: 15px;
+     font-size: 18px;
+}
+.attr a{
+     color: #1dd1a1;
+     text-decoration: none;
+}
+.attr a:hover{
+     text-decoration: underline;
+}
+.container{
+     background: #fafafa;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 5px 25px rgba(0,0,0,.5);
+     width: 100%;
+     max-width: 512px;
+}
+.container .search-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 10px 0;
+     width: 100%;
+}
+.container .search-box input{
+     flex-grow: 1;
+     flex-shrink: 0;
+     font-size: 16px;
+     padding: 0.5em;
+     border-radius: 10px 0 0 10px;
+     border: 1px solid #bbb;
+     outline: none;
+     transition: .3s;
+}
+.container .search-box input:focus{
+     border-color: #1dd1a1;
+     box-shadow: 0 0 5px #1dd1a1;
+}
+.container .search-box button{
+     padding: 0.5em;
+     display: flex;
+     align-items: center;
+     border-radius: 0 10px 10px 0;
+     border: 1px solid #1dd1a1;
+     background: #1dd1a1;
+     cursor: pointer;
+     transition: .3s;
+}
+.container .search-box button:hover{
+     background: #017556;
+     border-color: #017556;
+     color: #fff;
+}
+.container .weather-details{
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 5px;
+}
+.container .weather-details.active{
+     display: flex;
+}
+.container .weather-details .grid{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     gap: 10px;
+}
+.container .weather-details .temperature{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.container .weather-details .temperature .temperatureTxt{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+}
+.container .weather-details .info{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+.container .weather-details .info li{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.container .daily-cards{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     max-width: 512px;
+     overflow-x: auto;
+     padding: 15px;
+     gap: 10px;
+}
+.container .daily-cards::-webkit-scrollbar{
+     height: 10px;
+}
+.container .daily-cards::-webkit-scrollbar-thumb{
+     background: #bbb;
+     border-radius: 75px;
+}
+.container .daily-cards .card{
+     width: 180px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     box-shadow: 0 5px 10px rgba(0,0,0,.5);
+     padding: 10px;
+     border-radius: 10px;
+     background: #fafafa;
+}
+.container .daily-cards .card p{
+     margin: 3px 0;
+}
+.container .daily-cards .card .temp{
+     display: flex;
+     align-items: center;
+}
+.container .daily-cards .card .temp svg{
+     width: 16px;
+     height: 16px;
+}
+.container .daily-cards .card .temps{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+}
+@media screen and (max-width: 500px){
+     .container .daily-cards{
+          max-width: 275px;
+     }
+}
+@media screen and (max-width: 400px){
+     .container .weather-details .grid{
+          width: 100%;
+          grid-template-columns: auto;
+     }
+     .container .weather-details .info{
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-between;
+     }
+     .container .weather-details .info li{
+          gap: 5px;
+     }
+}
