@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Weather App Tutorial In Javascript Using Open Meteo API](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 - [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
 - [Password Generator Tutorial In Javascript](https://www.youtube.com/watch?v=a0lEPik55SM)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Random Color Generator Tutorial Using Javascript](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Quote Generator Tutorial With Javascript](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
 - [Responsive Sidebar Tutorial [HTML, CSS, JS]](https://www.youtube.com/watch?v=1djaszEYLoo)
-- [Responsive 404 Page Tutorial With Animated Background [HTML, CSS]](https://www.youtube.com/watch?v=xBVNJ97iKvg)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
