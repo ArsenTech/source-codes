@@ -63,7 +63,7 @@
                          capitalTxt.textContent = capital.join(", ")
                          areaTxt.textContent = area
                          populationTxt.textContent = population
-                         densityTxt.textContent = parseInt(population/area)
+                         densityTxt.textContent = (population/area).toFixed(2)
                          currencyTxt.textContent = `${currency.name} (${currency.symbol})`
                          languagesTxt.textContent = Object.values(languages).join(", ")
                          continentTxt.textContent = continents.join(", ")
