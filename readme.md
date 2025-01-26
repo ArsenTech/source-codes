@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Country Guide App Tutorial with JavaScript – Fetch Data with REST API](https://www.youtube.com/watch?v=T7fRxPXLFn0)
 - [Weather App with JavaScript &amp; Open Meteo API – Full Guide!](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 - [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Light &amp; Dark Mode Switch in JavaScript &lpar;Step-by-Step&rpar;. No Frameworks Needed!](https://www.youtube.com/watch?v=2U_z98Ln3kg)
 - [Color Generator with Copy to Clipboard – JavaScript Tutorial](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Build a Random Quote Generator in JavaScript &lpar;Step-by-Step&rpar;](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
-- [How to Make a Responsive Sidebar Menu in HTML, CSS &amp; JS](https://www.youtube.com/watch?v=1djaszEYLoo)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
