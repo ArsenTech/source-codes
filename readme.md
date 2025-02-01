@@ -3,7 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
-- [Multilingual Page in JavaScript #3: Expanding Translation &amp; Code Optimization](https://www.youtube.com/watch?v=wprvcHzQJlw)
+- [Multilingual Page in JavaScript #3: Translate More Elements &amp; Improve Code](https://www.youtube.com/watch?v=wprvcHzQJlw)
 - [Country Guide App Tutorial with JavaScript – Fetch Data with REST API](https://www.youtube.com/watch?v=T7fRxPXLFn0)
 - [Weather App with JavaScript &amp; Open Meteo API – Full Guide!](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 - [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
