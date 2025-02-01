@@ -9,7 +9,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
 - [Build a Secure Password Generator in JavaScript with Copy to Clipboard](https://www.youtube.com/watch?v=a0lEPik55SM)
 - [Joke Generator Tutorial With Javascript](https://www.youtube.com/watch?v=uVZcbE8kcQc)
-- [Create a Language-Switching Page with HTML, CSS &amp; JS &lpar;Part 2&rpar;](https://www.youtube.com/watch?v=y8yAP7hPB-w)
+- [Multilingual Page in JavaScript #2: Save User&#39;s Language with LocalStorage](https://www.youtube.com/watch?v=y8yAP7hPB-w)
 - [Light &amp; Dark Mode Switch in JavaScript &lpar;Step-by-Step&rpar;. No Frameworks Needed!](https://www.youtube.com/watch?v=2U_z98Ln3kg)
 - [Color Generator with Copy to Clipboard – JavaScript Tutorial](https://www.youtube.com/watch?v=UCWdAUYM474)
 - [Build a Random Quote Generator in JavaScript &lpar;Step-by-Step&rpar;](https://www.youtube.com/watch?v=zTJdpwuDzpQ)
