@@ -1,0 +1,44 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     min-height: 100vh;
+     background: #204829;
+}
+.btn, .btn-outline{
+     padding: 0.7em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+     border-radius: 10px;
+     border: 2px solid transparent;
+     font-size: 18.5px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: .3s;
+     outline: none;
+}
+.btn, .btn-outline:hover, .btn-outline:focus{
+     background: #22b455;
+     color: #222;
+}
+.btn :where(.icon, svg), .btn-outline :where(.icon, svg){
+     width: 30px;
+     height: 30px;
+}
+.btn:hover, .btn:focus{
+     background: #fff;
+}
+.btn-outline{
+     border-color: #22b455;
+     background: none;
+     color: #22b455;
+}
