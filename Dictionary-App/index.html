@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Dictionary App</title>
+</head>
+<body>
+     <div class="container">
+          <h1>Dictionary</h1>
+          <form action="#" class="search-box" id="search-box">
+               <input type="text" name="search-input" id="search-input" placeholder="Search a word">
+               <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/></svg>
+               </button>
+          </form>
+          <p class="errTxt"></p>
+          <div class="word-details">
+               <div class="word-info">
+                    <div class="word-name">
+                         <h2 id="word-txt">play</h2>
+                         <p>
+                              <span id="type-txt">noun </span>
+                              <span id="phonetic-txt">/pleɪ/</span>
+                         </p>
+                    </div>
+                    <button type="button" id="sound-btn">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M12.031 1.063c-.321.001-.676.145-1 .468L5.312 8H1c-.551 0-1 .449-1 1v8c0 .551.449 1 1 1h4.313L11 24.438c1 1 2 .488 2-.875V2.28c0-.791-.433-1.222-.969-1.219zm7.25 2a1 1 0 0 0-.218 1.906A8.96 8.96 0 0 1 24 13c0 3.524-2 6.55-4.938 8.031a1 1 0 1 0 .875 1.782C23.53 21 26 17.288 26 13s-2.471-8-6.063-9.813a1 1 0 0 0-.562-.124a1 1 0 0 0-.094 0m-2.375 3.874a1 1 0 0 0-.406 1.875C18.043 9.771 19 11.29 19 13c0 1.722-.972 3.261-2.531 4.219a1 1 0 1 0 1.062 1.687C19.601 17.636 21 15.476 21 13c0-2.461-1.387-4.633-3.438-5.906A1 1 0 0 0 17 6.937a1 1 0 0 0-.094 0"/></svg>
+                    </button>
+               </div>
+               <p class="definition" id="definition-txt">Activity for amusement only, especially among the young.</p>
+               <div class="blockquote" id="example-elem">
+                    <h3>Examples</h3>
+                    <p>Children learn through play.</p>
+               </div>
+               <div class="blockquote" id="synonyms-elem">
+                    <h3>Synonyms</h3>
+                    <p>play</p>
+               </div>
+               <div class="blockquote" id="antonyms-elem">
+                    <h3>Antonyms</h3>
+                    <p>some word</p>
+               </div>     
+          </div>
+     </div>
+     <script>
+          const searchBox = document.getElementById("search-box");
+          const searchInput = document.getElementById("search-input");
+          const wordTxt = document.getElementById("word-txt");
+          const typeTxt = document.getElementById("type-txt");
+          const phoneticTxt = document.getElementById("phonetic-txt");
+          const soundBtn = document.getElementById("sound-btn");
+          const definitionTxt = document.getElementById("definition-txt");
+          const exampleElem = document.getElementById("example-elem");
+          const synonymsElem = document.getElementById("synonyms-elem");
+          const antonymsElem = document.getElementById("antonyms-elem");
+          const audio = new Audio();
+          const wordDetailsElem = document.querySelector(".word-details")
+          const errTxt = document.querySelector(".errTxt");
+          async function getWordDetails(word){
+               const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+               const data = await res.json();
+               const wordData = data[0];
+               const phonetics = wordData.phonetics || [];
+
+               let phoneticTxt = "", phoneticAudio = "";
+
+               for(const phonetic of phonetics){
+                    if(phonetic.text && !phoneticTxt)
+                         phoneticTxt = phonetic.text
+                    if(phonetic.audio && !phoneticAudio)
+                         phoneticAudio = phonetic.audio;
+                    if(phoneticTxt && phoneticAudio) break;
+               }
+
+               const meaning = wordData.meanings[0];
+
+               return {
+                    word: word.toLowerCase(),
+                    phonetic: {
+                         text: phoneticTxt,
+                         audio: phoneticAudio
+                    },
+                    speechPart: meaning.partOfSpeech,
+                    definition: meaning.definitions[0].definition,
+                    synonyms: meaning.synonyms,
+                    antonyms: meaning.antonyms,
+                    example: meaning.definitions[0].example || ""
+               }
+          }
+          searchBox.addEventListener("submit",async e=>{
+               e.preventDefault();
+               if(searchInput.value.trim()===""){
+                    errTxt.textContent = "Please Enter a Word"
+               } else {
+                    wordDetailsElem.classList.remove("active")
+                    try{
+                         errTxt.textContent = "";
+                         const wordDetails = await getWordDetails(searchInput.value);
+                         wordTxt.textContent = wordDetails.word;
+                         typeTxt.textContent = wordDetails.speechPart;
+                         phoneticTxt.textContent = wordDetails.phonetic.text;
+                         audio.src = wordDetails.phonetic.audio;
+                         definitionTxt.textContent = wordDetails.definition
+                         exampleElem.querySelector("p").textContent = wordDetails.example
+                         synonymsElem.querySelector("p").textContent = wordDetails.synonyms.join(", ");
+                         antonymsElem.querySelector("p").textContent = wordDetails.antonyms.join(", ");
+                         exampleElem.style.display = wordDetails.example==="" ? "none" : "block";
+                         synonymsElem.style.display = wordDetails.synonyms.length===0 ? "none" : "block";
+                         antonymsElem.style.display = wordDetails.antonyms.length===0 ? "none" : "block"
+                         wordDetailsElem.classList.add("active")
+                    } catch {
+                         errTxt.textContent = "Word Not Found";
+                    }
+               }
+          })
+          soundBtn.addEventListener("click",()=>{
+               audio.play()
+          })
+     </script>
+</body>
+</html>
