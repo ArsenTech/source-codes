@@ -3,6 +3,8 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [How to Center a Div Element in CSS | 4 Easy Methods!](https://www.youtube.com/watch?v=887rpSgVs28)
+- [How to Make a Dictionary App in HTML, CSS &amp; JavaScript &lpar;For Beginners&rpar;](https://www.youtube.com/watch?v=S33yscBK9Sc)
 - [How to Create a Download Button with Animated SVG Icons in HTML, CSS &amp; JS](https://www.youtube.com/watch?v=W1gIaluinNE)
 - [Multilingual Page in JavaScript #3: Translate More Elements &amp; Improve Code](https://www.youtube.com/watch?v=wprvcHzQJlw)
 - [Country Guide App Tutorial with JavaScript – Fetch Data with REST API](https://www.youtube.com/watch?v=T7fRxPXLFn0)
@@ -11,8 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
 - [Build a Secure Password Generator in JavaScript with Copy to Clipboard](https://www.youtube.com/watch?v=a0lEPik55SM)
 - [Fun JavaScript Project – Random Joke Generator &lpar;Step-by-Step&rpar;](https://www.youtube.com/watch?v=uVZcbE8kcQc)
-- [Multilingual Page in JavaScript #2: Save User&#39;s Language with LocalStorage](https://www.youtube.com/watch?v=y8yAP7hPB-w)
-- [Light &amp; Dark Mode Switch in JavaScript &lpar;Step-by-Step&rpar;. No Frameworks Needed!](https://www.youtube.com/watch?v=2U_z98Ln3kg)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
