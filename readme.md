@@ -3,6 +3,8 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [Fix Form Reload Issue in JavaScript &lpar;Easy Fix!&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=k9h6ifNOpGg)
+- [Copy Text to Clipboard with JavaScript in 25 Seconds! | #shorts #javascript #coding](https://www.youtube.com/watch?v=zbW-LTQ7Eek)
 - [4 Easy Ways To Center a Div Element in CSS | #shorts #programming #coding #css #css3](https://www.youtube.com/watch?v=887rpSgVs28)
 - [How to Make a Dictionary App in HTML, CSS &amp; JavaScript &lpar;For Beginners&rpar;](https://www.youtube.com/watch?v=S33yscBK9Sc)
 - [How to Create a Download Button with Animated SVG Icons in HTML, CSS &amp; JS](https://www.youtube.com/watch?v=W1gIaluinNE)
@@ -11,8 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Weather App with JavaScript &amp; Open Meteo API – Full Guide!](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 - [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
 - [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
-- [Build a Secure Password Generator in JavaScript with Copy to Clipboard](https://www.youtube.com/watch?v=a0lEPik55SM)
-- [Fun JavaScript Project – Random Joke Generator &lpar;Step-by-Step&rpar;](https://www.youtube.com/watch?v=uVZcbE8kcQc)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
