@@ -3,8 +3,8 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
-- [Fix Form Reload Issue in JavaScript &lpar;Easy Fix!&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=k9h6ifNOpGg)
-- [Copy Text to Clipboard with JavaScript in 25 Seconds! | #shorts #javascript #coding](https://www.youtube.com/watch?v=zbW-LTQ7Eek)
+- [Prevent Form Reload on Submit &lpar;JavaScript Fix!&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=k9h6ifNOpGg)
+- [1-Click Copy Text to Clipboard! &lpar;JavaScript Trick&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=zbW-LTQ7Eek)
 - [4 Easy Ways To Center a Div Element in CSS | #shorts #programming #coding #css #css3](https://www.youtube.com/watch?v=887rpSgVs28)
 - [How to Make a Dictionary App in HTML, CSS &amp; JavaScript &lpar;For Beginners&rpar;](https://www.youtube.com/watch?v=S33yscBK9Sc)
 - [How to Create a Download Button with Animated SVG Icons in HTML, CSS &amp; JS](https://www.youtube.com/watch?v=W1gIaluinNE)
