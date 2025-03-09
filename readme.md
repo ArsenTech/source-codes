@@ -3,6 +3,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
+- [How to Add a Favicon to Your Website in 3 Steps! | #shorts #programming #coding #html #css](https://www.youtube.com/watch?v=FHkxcqfDqW4)
 - [Prevent Form Reload on Submit &lpar;JavaScript Fix!&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=k9h6ifNOpGg)
 - [1-Click Copy Text to Clipboard! &lpar;JavaScript Trick&rpar; | #shorts #javascript #coding](https://www.youtube.com/watch?v=zbW-LTQ7Eek)
 - [4 Easy Ways To Center a Div Element in CSS | #shorts #programming #coding #css #css3](https://www.youtube.com/watch?v=887rpSgVs28)
@@ -12,7 +13,6 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Country Guide App Tutorial with JavaScript – Fetch Data with REST API](https://www.youtube.com/watch?v=T7fRxPXLFn0)
 - [Weather App with JavaScript &amp; Open Meteo API – Full Guide!](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 - [Create a Tic Tac Toe Game in React JS | 2-Player &amp; AI Modes with Difficulty Levels](https://www.youtube.com/watch?v=i8GCZIjYvys)
-- [20 JavaScript One-Liner Functions You Need to Know](https://www.youtube.com/watch?v=c-HgptUzl8o)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
