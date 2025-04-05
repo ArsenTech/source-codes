@@ -3,8 +3,8 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 
 ## Tutorials Based on Source Codes
 <!-- YOUTUBE:START -->
-- [Detect Dark Mode in JavaScript in Simple Way | #shorts #javascript #coding #programming](https://www.youtube.com/watch?v=Zsdrb5WqYro)
-- [How to Add a Favicon to Your Website in 3 Steps! | #shorts #programming #coding #html #css](https://www.youtube.com/watch?v=FHkxcqfDqW4)
+- [Detect Dark Mode in JavaScript in Simple Way](https://www.youtube.com/watch?v=Zsdrb5WqYro)
+- [How to Add a Favicon to Your Website in 3 Steps!](https://www.youtube.com/watch?v=FHkxcqfDqW4)
 - [Prevent Form Reload on Submit &lpar;JavaScript Fix!&rpar;](https://www.youtube.com/watch?v=k9h6ifNOpGg)
 - [1-Click Copy Text to Clipboard! &lpar;JavaScript Trick&rpar;](https://www.youtube.com/watch?v=zbW-LTQ7Eek)
 - [4 Easy Ways To Center a Div Element in CSS](https://www.youtube.com/watch?v=887rpSgVs28)
