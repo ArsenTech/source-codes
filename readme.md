@@ -25,6 +25,6 @@ You Can Use These Codes In Your Websites, Web Projects and so on, but I Recommen
 [![Coding Channel](https://img.shields.io/badge/Coding%20With%20ArsenTech-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000)](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
 
 > GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
-> Codepen [ArsenJS](https://codepen.io/ArsenJS) &nbsp;&middot;&nbsp;
+> Codepen [ArsenTech](https://codepen.io/ArsenTech) &nbsp;&middot;&nbsp;
 > Patreon [ArsenTech](https://www.patreon.com/ArsenTech) &nbsp;&middot;&nbsp;
 > [ArsenTech's Website](https://arsentech.github.io)
