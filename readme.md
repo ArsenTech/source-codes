@@ -3,6 +3,7 @@
 This branch (`cdn-storage`) is used exclusively for hosting public assets via **GitHub Pages**, including:
 - Images and Icons for CodePen previews
 - JSON or text data
+- Any video or audio files
 - Other non-code resources
 
 > [!WARNING]
