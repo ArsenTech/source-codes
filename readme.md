@@ -1,6 +1,6 @@
 # ArsenTech's Assets CDN For Source Codes
 
-This branch (`assets-cdn`) is used exclusively for hosting public assets via **GitHub Pages**, including:
+This branch (`cdn-storage`) is used exclusively for hosting public assets via **GitHub Pages**, including:
 - Images and Icons for CodePen previews
 - JSON or text data
 - Other non-code resources
