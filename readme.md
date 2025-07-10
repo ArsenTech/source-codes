@@ -9,7 +9,7 @@ This branch (`assets-cdn`) is used exclusively for hosting public assets via **G
 > This branch is isolated from `main` and **does not contain source code or website logic**.  
 > Do not open pull requests to or from this branch. It’s an independent branch meant for static file delivery.
 
-## 🌐 CDN Usage
+## CDN Usage
 All files in this branch are served via **GitHub Pages** at https://arsentech.github.io/source-codes/
 
 You can use these URLs directly in:
