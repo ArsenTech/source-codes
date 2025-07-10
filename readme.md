@@ -1,7 +1,9 @@
 # Source Codes For Coding With ArsenTech
 These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)'s Tutorial Videos
 
-## Tutorials Based on Source Codes
+[![Live Previews](https://img.shields.io/badge/-Live%20Previews%20For%20Tutorials-222222?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/collection/Gpepbd)
+
+## Latest Videos from Coding With ArsenTech
 <!-- YOUTUBE:START -->
 - [Detect Dark Mode in JavaScript in Simple Way](https://www.youtube.com/shorts/Zsdrb5WqYro)
 - [How to Add a Favicon to Your Website in 3 Steps!](https://www.youtube.com/shorts/FHkxcqfDqW4)
@@ -18,7 +20,7 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 ➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
 
 ## Attribution
-You Can Use These Codes In Your Websites, Web Projects and so on, but I Recommend you To Watch The Tutorials or Credit to ArsenTech If You Want.
+You Can Use These Codes In Your Websites, Web Projects and so on. I Recommend you watch The Tutorials or Credit to ArsenTech If You Want to.
 
 ## Subscribe To These Channels On YouTube
 [![Main Channel](https://img.shields.io/badge/ArsenTech%20-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000)](https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg)
