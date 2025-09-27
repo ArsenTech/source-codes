@@ -1,7 +1,13 @@
 # Source Codes For Coding With ArsenTech
-These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)'s Tutorial Videos
+These are Source Codes From [Coding with ArsenTech][yt-coding-channel]'s Tutorial Videos
 
-[![Live Previews](https://img.shields.io/badge/-Live%20Previews%20For%20Tutorials-222222?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/collection/Gpepbd)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+![GitHub Created At][created-at-shield]
+
+[![Live Previews][live-preview-shield]][live-preview-url]
 
 ## Latest Videos from Coding With ArsenTech
 <!-- YOUTUBE:START -->
@@ -17,16 +23,39 @@ These are Source Codes From [Coding with ArsenTech](https://www.youtube.com/chan
 - [Weather App with JavaScript &amp; Open Meteo API | Full Guide](https://www.youtube.com/watch?v=HS7GfTuJgA8)
 <!-- YOUTUBE:END -->
 
-➡️ [More Videos](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
+➡️ [More Videos][yt-coding-channel]
 
 ## Attribution
 You Can Use These Codes In Your Websites, Web Projects and so on. I Recommend you watch The Tutorials or Credit to ArsenTech If You Want to.
 
 ## Subscribe To These Channels On YouTube
-[![Main Channel](https://img.shields.io/badge/ArsenTech%20-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000)](https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg)
-[![Coding Channel](https://img.shields.io/badge/Coding%20With%20ArsenTech-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000)](https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA)
+[![Main Channel][yt-main-shield]][yt-main-channel]
+[![Coding Channel][yt-coding-shield]][yt-coding-channel]
 
-> GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
-> Codepen [ArsenTech](https://codepen.io/ArsenTech) &nbsp;&middot;&nbsp;
-> Patreon [ArsenTech](https://www.patreon.com/ArsenTech) &nbsp;&middot;&nbsp;
-> [ArsenTech's Website](https://arsentech.github.io)
+> GitHub [@ArsenTech][github-url] &nbsp;&middot;&nbsp;
+> Codepen [ArsenTech][codepen-url] &nbsp;&middot;&nbsp;
+> Patreon [ArsenTech][patreon-url] &nbsp;&middot;&nbsp;
+> [ArsenTech's Website][website-url]
+
+<!-- Repo Stats Links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ArsenTech/source-codes.svg?style=for-the-badge&color=%2322b455
+[contributors-url]: https://github.com/ArsenTech/source-codes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ArsenTech/source-codes.svg?style=for-the-badge&color=%2322b455
+[forks-url]: https://github.com/ArsenTech/source-codes/network/members
+[stars-shield]: https://img.shields.io/github/stars/ArsenTech/source-codes.svg?style=for-the-badge&color=%2322b455
+[stars-url]: https://github.com/ArsenTech/source-codes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ArsenTech/source-codes.svg?style=for-the-badge
+[issues-url]: https://github.com/ArsenTech/source-codes/issues
+[created-at-shield]: https://img.shields.io/github/created-at/ArsenTech/source-codes?style=for-the-badge
+
+<!-- External Links -->
+[live-preview-shield]: https://img.shields.io/badge/-Live%20Previews%20For%20Tutorials-222222?style=for-the-badge&logo=codepen&logoColor=white
+[live-preview-url]: https://codepen.io/collection/Gpepbd
+[yt-coding-shield]: https://img.shields.io/badge/Coding%20With%20ArsenTech-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000
+[yt-coding-channel]: https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA
+[yt-main-shield]: https://img.shields.io/badge/ArsenTech%20-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000
+[yt-main-channel]: https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg
+[github-url]: https://github.com/ArsenTech
+[codepen-url]: https://codepen.io/ArsenTech
+[patreon-url]: https://www.patreon.com/ArsenTech
+[website-url]: https://arsentech.github.io
