@@ -11,7 +11,7 @@ These are Source Codes From [Coding with ArsenTech][yt-coding-channel]'s Tutoria
 
 ## Latest Videos from Coding With ArsenTech
 <!-- YOUTUBE:START -->
-- [Detect Dark Mode in JavaScript in Simple Way](https://www.youtube.com/shorts/Zsdrb5WqYro)
+- [Detect Dark Mode in JavaScript in Seconds!](https://www.youtube.com/shorts/Zsdrb5WqYro)
 - [How to Add a Favicon to Your Website in 3 Steps!](https://www.youtube.com/shorts/FHkxcqfDqW4)
 - [Prevent Form Reload on Submit &lpar;JavaScript Fix!&rpar;](https://www.youtube.com/shorts/k9h6ifNOpGg)
 - [1-Click Copy Text to Clipboard! &lpar;JavaScript Trick&rpar;](https://www.youtube.com/shorts/zbW-LTQ7Eek)
