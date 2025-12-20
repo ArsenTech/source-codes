@@ -8,22 +8,7 @@ These are Source Codes From [Coding with ArsenTech][yt-coding-channel]'s Tutoria
 ![GitHub Created At][created-at-shield]
 
 [![Live Previews][live-preview-shield]][live-preview-url]
-
-## Latest Videos from Coding With ArsenTech
-<!-- YOUTUBE:START -->
-- [Detect Dark Mode in JavaScript in Seconds!](https://www.youtube.com/shorts/Zsdrb5WqYro)
-- [How to Add a Favicon to Your Website in 3 Steps!](https://www.youtube.com/shorts/FHkxcqfDqW4)
-- [Prevent Form Reload on Submit &lpar;JavaScript Fix!&rpar;](https://www.youtube.com/shorts/k9h6ifNOpGg)
-- [1-Click Copy Text to Clipboard! &lpar;JavaScript Trick&rpar;](https://www.youtube.com/shorts/zbW-LTQ7Eek)
-- [4 Easy Ways To Center a Div Element in CSS](https://www.youtube.com/shorts/887rpSgVs28)
-- [How to Make a Dictionary App using JavaScript and REST API &lpar;For Beginners&rpar;](https://www.youtube.com/watch?v=S33yscBK9Sc)
-- [How to Create a Download Button with Animated SVG using HTML, CSS &amp; JS](https://www.youtube.com/watch?v=W1gIaluinNE)
-- [Extend Translations &amp; Improve Code | Multilingual Page in JavaScript](https://www.youtube.com/watch?v=wprvcHzQJlw)
-- [Country Guide App using JavaScript and REST API | Full Guide](https://www.youtube.com/watch?v=T7fRxPXLFn0)
-- [Weather App with JavaScript &amp; Open Meteo API | Full Guide](https://www.youtube.com/watch?v=HS7GfTuJgA8)
-<!-- YOUTUBE:END -->
-
-➡️ [More Videos][yt-coding-channel]
+[![More Videos][yt-videos-shield]][yt-coding-channel]
 
 ## Attribution
 You Can Use These Codes In Your Websites, Web Projects and so on. I Recommend you watch The Tutorials or Credit to ArsenTech If You Want to.
@@ -59,3 +44,4 @@ You Can Use These Codes In Your Websites, Web Projects and so on. I Recommend yo
 [codepen-url]: https://codepen.io/ArsenTech
 [patreon-url]: https://www.patreon.com/ArsenTech
 [website-url]: https://arsentech.github.io
+[yt-videos-shield]: https://img.shields.io/badge/More%20Videos-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000
